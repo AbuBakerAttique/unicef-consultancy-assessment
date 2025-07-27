@@ -11,19 +11,23 @@
 
 ## 📂 Repository Structure
 
-├── data/ Raw Excel source files
-│ ├── WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx
-│ ├── On-track and off-track countries.xlsx
-│ ├── ANC4_long.xlsx
-│ └── SBA_long.xlsx
-├── notebooks/ Analysis notebook
-│ └── UNICEF_Assessment.ipynb
-├── outputs/ Generated report
-│ ├── report.html
-│ └── report.pdf
-├── run_project.py Script to regenerate the report
-├── requirements.txt Python dependencies
-└── README.md This file
+- **data/**  
+  - WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx  
+  - On-track and off-track countries.xlsx  
+  - ANC4_long.xlsx  
+  - SBA_long.xlsx  
+
+- **notebooks/**  
+  - UNICEF_Assessment.ipynb  
+
+- **outputs/**  
+  - report.html  
+  - report.pdf  
+
+- **run_project.py** – Script to regenerate the report  
+- **user_profile.py** – Environment setup (imports)  
+- **requirements.txt** – Python dependencies  
+- **README.md** – This file
 
 
 Folder & File Descriptions
